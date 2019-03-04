@@ -34,4 +34,4 @@ SwipeAnimationButton swipeAnimationButton = (SwipeAnimationButton) findViewById(
         });
 ```
 ### To do
-- custom method without XML
+- Implementation custom method without XML
