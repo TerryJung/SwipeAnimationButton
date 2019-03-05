@@ -8,7 +8,25 @@ SwipeAnimationButton is a custom swipe Button of Android ui. you can swipe both 
 ## How to use
 
 ### Install
+**Step 1.** Add the JitPack repository to your build file
 
+Add it in your **root build.gradle** at the end of repositories:
+```
+allprojects {
+        repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+**Step 2.** Add the dependency
+```
+dependencies {
+        implementation 'com.github.TerryJung:SwipeAnimationButton:0.1.0'
+}
+```
+
+                   
 ### setting up view
 ```
 <com.terry.view.swipeanimationbutton.SwipeAnimationButton
