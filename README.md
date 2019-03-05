@@ -27,7 +27,7 @@ dependencies {
 ```
 
                    
-### setting up view
+### Setting up view
 ```
 <com.terry.view.swipeanimationbutton.SwipeAnimationButton
         android:id="@+id/swipe_btn"
