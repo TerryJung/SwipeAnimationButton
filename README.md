@@ -32,9 +32,7 @@ dependencies {
 <com.terry.view.swipeanimationbutton.SwipeAnimationButton
         android:id="@+id/swipe_btn"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"/>
+        android:layout_height="90dp"/>
 ```
 
 ### Use Swipe Listener
@@ -51,5 +49,23 @@ SwipeAnimationButton swipeAnimationButton = (SwipeAnimationButton) findViewById(
             }
         });
 ```
+
+### Customizing view
+```
+<com.terry.view.swipeanimationbutton.SwipeAnimationButton
+        android:id="@+id/swipe_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+	app:background="@drawable/shape_rounded"
+        app:defaultBackground="@drawable/shape_button_neutral"
+        app:defaultDrawable="@drawable/sentimental_neutral"
+        app:rightSwipeBackground="@drawable/shape_button"
+        app:rightSwipeDrawable="@drawable/sentimental_satisfied"
+        app:leftSwipeBackground="@drawable/gradient_radius_grey"
+        app:leftSwipeDrawable="@drawable/sentimental_dissatisfied"
+	app:duration="200"/>
+```
+```
+
 ### To do
 - Implementation custom method without XML
