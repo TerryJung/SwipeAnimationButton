@@ -65,7 +65,6 @@ SwipeAnimationButton swipeAnimationButton = (SwipeAnimationButton) findViewById(
         app:leftSwipeDrawable="@drawable/sentimental_dissatisfied"
 	app:duration="200"/>
 ```
-```
 
 ### To do
 - Implementation custom method without XML
