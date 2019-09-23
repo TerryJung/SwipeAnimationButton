@@ -1,5 +1,6 @@
 # SwipeAnimationButton
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SwipeAnimationButton-blue.svg?style=flat)](https://android-arsenal.com/details/1/7871)
+
 SwipeAnimationButton is a custom swipe Button of Android ui. you can swipe both sides. SwipeAnimationButton's get inspiration from [AndroidPub](https://android.jlelse.eu/make-a-great-android-ux-how-to-make-a-swipe-button-eefbf060326d). This library is very small and highly customizable.
 
 ## Preview
